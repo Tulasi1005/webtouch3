@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Webtouch IT Solution</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+ <!-- Favicons -->
+ <link rel="icon" href="assets/img/fevicon/fevicon.png" type="image/gif" />
+
+ <!-- Fonts -->
+ <link href="https://fonts.googleapis.com" rel="preconnect">
+ <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+
+ <!-- Main CSS File -->
+ <link href="assets/css/main.css" rel="stylesheet">
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- bootstrap -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.min.css" integrity="sha512-i1b/nzkVo97VN5WbEtaPebBG8REvjWeqNclJ6AItj7msdVcaveKrlIIByDpvjk5nwHjXkIqGZscVxOrTb9tsMA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-grid.rtl.min.css" integrity="sha512-V7mESobi1wvYdh9ghD/BDbehOyEDUwB4c4IVp97uL0QSka0OXjBrFrQVAHii6PNt/Zc1LwX6ISWhgw1jbxQqGg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.min.css" integrity="sha512-HJaQ4y3YcUGCWikWDn8bFeGTy3Z/3IbxFYQ9G3UAWx16PyTL6Nu5P/BDDV9s0WhK3Sq27Wtbk/6IcwGmGSMXYg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-reboot.rtl.min.css" integrity="sha512-3rUQrzowNf614w5xf4fiZKVHGYQdstwW8pyN3ib/eHeOC3k0kd+T9nVZA+Mmsx2yFayVdC0QYMaUVZVCnE0YXQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-utilities.min.css" integrity="sha512-4ocAKAxnrkSm7MvkkF1D435kko3/HWWvoi/U9+7+ln94B/U01Mggca05Pm3W59BIv3abl0U3MPdygAPLo5aeqg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap-utilities.rtl.min.css" integrity="sha512-zsjfQ5vXJw9hZA67bkzXV2lIQrSLhF5gC5TZT/BE6DdrCoUdtOhPrpD0v6p4nZhZOYZENusWWSgqDpl0F8SbfA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.rtl.min.css" integrity="sha512-VNBisELNHh6+nfDjsFXDA6WgXEZm8cfTEcMtfOZdx0XTRoRbr/6Eqb2BjqxF4sNFzdvGIt+WqxKgn0DSfh2kcA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+   
+       <!-- Fonts -->
+       <link href="https://fonts.googleapis.com" rel="preconnect">
+       <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+       <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+     
+       <!-- Vendor CSS Files -->
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css" integrity="sha512-dPXYcDub/aeb08c63jRq/k6GaKccl256JQy/AnOq7CAnEZ9FzSL9wSbcZkMp4R26vBsMLFYH4kQ67/bbV8XaCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css" integrity="sha512-EJp8vMVhYl7tBFE2rgNGb//drnr1+6XKMvTyamMS34YwOEFohhWkGq13tPWnK0FbjSS6D8YoA3n3bZmb3KiUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/fontawesome.min.css" integrity="sha512-B46MVOJpI6RBsdcU307elYeStF2JKT87SsHZfRSkjVi4/iZ3912zXi45X5/CBr/GbCyLx6M1GQtTKYRd52Jxgw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/regular.min.css" integrity="sha512-j+P0XpTXw+hDTK64xqC/cjv62cf629/IR4/0bokmich7J8XdVlWT40+1M/Z58rCQ4F+3QoJIfzh6Ui6TTIP6WQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/solid.min.css" integrity="sha512-/r+0SvLvMMSIf41xiuy19aNkXxI+3zb/BN8K9lnDDWI09VM0dwgTMzK7Qi5vv5macJ3VH4XZXr60ip7v13QnmQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/svg-with-js.min.css" integrity="sha512-Nef0t+7fHdqSdK0uHHjJtjErpW8dJocz9vz2btqXLK9dVQEB3OdnufZ7lO4dQJJb1BvIhGScbk87vm5Z0OTezw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v4-font-face.min.css" integrity="sha512-uMkNR03wOoUxsQ3Zf9lWLYAxgps72NnRVVZ+Ig4j3l9G0hHCyk5ou3KAWdpvYOpf2JJfaNHL4p7GXRH+Ls15Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v4-shims.min.css" integrity="sha512-5egvUTaFShNzt5M4iPZNSUGLMF+fTSg/TTe5T407z8bC58AiX1qAWYka5HKDoFYAXRhhOH7e93TzwEp3F0jo5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/v5-font-face.min.css" integrity="sha512-DcECXqwZmt1qB8pmbplND75YoND3xBL1h4/LGQ+0zoizkoAKI+BniMoEF/JsZ/vcnsr9X5NOGaB63jLmOxgJrA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css" integrity="sha512-iQ3H4A+iyBTP8M4ypX5PrTt2S+G1zmRjf0k0uOASKlFHysV8TL9ZoQyVwPss0D12IBTMoDEHA8+bg8a1viS9Mg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.min.css" integrity="sha512-T+KoG3fbDoSnlgEXFQqwcTC9AdkFIxhBlmoaFqYaIjq2ShhNwNao9AKaLUPMfwiBPL0ScxAtc+UYbHAgvd+sjQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       
+
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/pure/3.0.0/pure-min.css" integrity="sha512-X2yGIVwg8zeG8N4xfsidr9MqIfIE8Yz1It+w2rhUJMqxUwvbVqC5OPcyRlPKYOw/bsdJut91//NO9rSbQZIPRQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+       <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+    
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<body class="index-page">
+  <div class="topbar d-flex align-items-center mt-2 mb-2">
+    <div class="container d-flex justify-content-center justify-content-md-between">
+      <div class="contact-info d-flex align-items-center">
+        <i class="bi bi-envelope d-flex align-items-center"><a href="mailto:contact@example.com">kiranraj@webtouch.co.in</a></i>
+        <i class="bi bi-phone d-flex align-items-center ms-4"><span>+91-7729921013</span></i>
+      </div>
+      <div class="social-links d-none d-md-flex align-items-center">
+      <button class="btn btn-outline-primary mb-2"><a href="#product" class="text-dark" >Explore Products ></a></button>  
+      </div>
+    </div>
+  </div><!-- End Top Bar -->
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    
+    <div class="container position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+       <img src="assets/img/logos/logo-webex.png" alt="" class="img-fluid">
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li> <a class="active" href="index.html">Home</a> </li>
+          <li><a href="about.html">About</a></li>
+          <li> <a href="products.html">Products</a></li>
+          <li> <a href="plan.html">Plans</a></li>
+          <li> <a href="faq.html">FAQ</a>
+          </li>
+          <li> <a href="blog.html">Blog</a></li>
+          <li> <a href="contact.html">Contact</a></li>
+          <li> <a href="trial.html">Trial</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+   
+
+    </div>
+  </header>
+
+  <main class="main">
+
+  
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h1>Welcome to Our Webtouch IT Solutions</h1>
+            <p>We are team of talented designers making websites with Bootstrap</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+              <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox btn-watch-video d-flex align-items-center"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img"style="background-color: rgba(17, 162, 235, 0.514); padding: 40px;">
+            <div class="container-fluid">
+              <div class="row">
+                
+                <div class="col-md-12">
+                  <form class="row g-3 needs-validation text-dark" id="contactForm" action="https://api.web3forms.com/submit" method="POST"
+                    novalidate>
+                    <div class="row">
+                      <div class="col-6">
+                        <label for="validationCustom01" class="form-label">First Name</label>
+                        <input type="hidden" name="access_key" value="f7da4e07-cc28-4a2b-8c31-21d2de7ab34c">
+                        <input type="text" class="form-control" name="First Name" id="validationCustom01" required>
+                        <div class="invalid-feedback">
+                          Please enter your first name.
+                        </div>
+                      </div>
+                      <div class="col-6">
+                        <label for="validationCustom02" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" name="Last Name" id="validationCustom02" required>
+                        <div class="invalid-feedback">
+                          Please enter your last name.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="validationEmail" class="form-label">Email</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="email" class="form-control" name="Email" id="validationEmail"
+                          aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid email address.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="validationMobile" class="form-label">Mobile Number</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">+91</span>
+                        <input type="text" class="form-control" name="Mobile Number" id="validationMobile"
+                          aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid 10-digit mobile number, starting with 6, 7, 8 & 9.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <label for="validationTextarea" class="form-label">Enter Your Message</label>
+                      <textarea class="form-control" name="Message" id="validationTextarea" placeholder="Enter your message here"
+                        required></textarea>
+                      <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                      <div class="invalid-feedback">
+                        Please enter your message.
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <a href="#about" class="btn-get-started">Submit</a>
+                    </div>
+                  </form>
+                  
+                </div>
+              </div>
+              <div class="py-5">
+                <h6 class="text-dark">No credit card needed. Immediate Account Activation</h6>
+                <p class="text-dark" style="font-size: 12px;">By clicking "Start My Free 30-Day Trial" I agree to the Terms of Service and Privacy
+                  Policy. Webex Meetings
+                  brings people all over the globe together. It’s like being there in person, even when you can’t be. Join
+                  from
+                  any device, get HD quality audio and video, or share your screen.</p>
+                <h5 class="text-dark" style="font-size: 15px;"><b>Call Now</b> - +91 7729921013. &nbsp;  <b>Email:</b> kiranraj@webtouch.co.in</h5>
+              </div>
+          
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+   
+    <section id="about" class="about section">
+
+    
+
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <ul class="nav nav-tabs row  g-2 d-flex" data-aos="fade-up" data-aos-delay="100">
+
+          <li class="nav-item col-3">
+            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#features-tab-1">
+              <h4>
+                Easily Meet on Your Phone or Tablet</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-2">
+              <h4>Clear Screen Sharing, Audio and Video</h4>
+            </a><!-- End tab nav item -->
+
+          </li>
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-3">
+              <h4>Meet Instantly or Schedule One for Later</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+          <li class="nav-item col-3">
+            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#features-tab-4">
+              <h4>Customize Team Settings to your Needs</h4>
+            </a>
+          </li><!-- End tab nav item -->
+
+        
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up" data-aos-delay="200">
+
+          <div class="tab-pane fade active show" id="features-tab-1">
+            <div class="row">
+              <div class="col-lg-12 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+               <center><img src="assets/img/slides/slide1.jpg" class="img-fluid" alt="" style="height: 400px; width: 40%;" ></center> 
+              </div>
+             
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-2">
+            <div class="row">
+              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <center><img src="assets/img/slides/slide2.jpg" class="img-fluid" alt=""></center>  
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-3">
+            <div class="row">
+              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <center><img src="assets/img/slides/slide3.jpg" class="img-fluid" alt=""></center>  
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+          <div class="tab-pane fade" id="features-tab-4">
+            <div class="row">
+              <div class="col-lg-12 order-2 order-lg-1 mt-3 mt-lg-0 d-flex flex-column justify-content-center">
+              <center><img src="assets/img/slides/slide4.jpg" class="img-fluid" alt=""></center>  
+              </div>
+            </div>
+          </div><!-- End tab content item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Features Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>EXPLORE PRODUCTS</h2>
+   
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://www.webtouch.co.in/images/webex1.png" alt="" class="img-fluid"></div>
+              <h4><a href="" class="stretched-link">Cisco Webex Meeting</a></h4>
+              <p>Video meetings made simple</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://www.webtouch.co.in/images/webex2.png" alt="" class="img-fluid"></div>
+            
+              <h4><a href="" class="stretched-link">Cisco Webex Calling</a></h4>
+              <p>Continuous teamwork in one place</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://www.webtouch.co.in/images/webex3.png" alt="" class="img-fluid"></div>
+              <h4><a href="" class="stretched-link">Cisco Webex Teams</a></h4>
+              <p>Calling without complexity</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-xl-3 col-md-6 d-flex" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon"><img src="https://www.webtouch.co.in/images/webex4.png" alt="" class="img-fluid"></div>
+              <h4><a href="" class="stretched-link">Cisco Webex Devices</a></h4>
+              <p>Video devices to connect and create</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+
+
+
+
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pricing</h2>
+        <p>Necessitatibus eius consequatur ex aliquid fuga eum quidem sint consectetur velit</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row g-4 g-lg-0">
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <div class="centered-div">
+                <h1 class="title"><span class="text-danger">W</span>EBEX <span class="text-danger">T</span>RY & <span class="text-danger">B</span>UY</h1>
+                <h2 class="subtitle">Upto 200 people per meeting</h2>
+                <h2 class="text-dark">INR <span class="text-danger" style="font-size: 50px; font-weight: 600;">0</span></h2>
+                <p>Billed Annually</p>
+                <p>Webex Meetings Business</p>
+                <p>Suite Included</p>
+                <p>30 Days Free Account</p>
+                <div class="text-center"><a href="#" onclick="window.location.href='plan.html'" class="buy-btn"> Free Trial <span class="arrow">➤</span></a></div>
+             
+                <hr>
+                <p><i class="bi bi-check"></i>  Unlimited meetings, up to 40 min per meeting</p>
+  <p><i class="bi bi-check"></i>  Up to 100 attendees per meeting</p>
+  <p><i class="bi bi-check"></i>  Screen sharing with annotation</p>
+  <p><i class="bi bi-check"></i>  Unlimited Whiteboards</p>
+  <p><i class="bi bi-check"></i>  Local recording</p>
+  <p><i class="bi bi-check"></i>  Calendar service integration</p>
+  <p><i class="bi bi-check"></i>  Advanced noise cancellation</p>
+  <p><i class="bi bi-check"></i>  Unlimited messaging</p>
+  <p><i class="bi bi-check"></i>  Create and share video by Vidcast</p>
+  <p><i class="bi bi-check"></i>  Advanced Security</p>
+  <p><i class="bi bi-check"></i>  Integration of leading apps</p>
+  <p><i class="bi bi-check"></i>  Basic Support</p>
+  
+                <div class="gradient"></div> <!-- Gradient div -->
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4 featured" data-aos="zoom-in" data-aos-delay="200">
+            <div class="pricing-item">
+              <div class="centered-div price2">
+                <h1 class="title"><span class="text-white">W</span>EBEX <span class="text-white">M</span>EETINGS</h1>
+                <h2 class="subtitle">Upto 1000 people per meeting</h2>
+                <h2 class="text-dark">INR <span class="text-white" style="font-size: 50px; font-weight: 600;">2950</span></h2>
+                <p>/per/Host/month*</p>
+                <p>Billed Annually Min. 1 Host</p>
+                <p>License</p>
+                <p>Immediate Activation</p>
+                <div class="text-center"><a href="#" onclick="window.location.href='plan.html'" class="buy-btn"> Buy <span class="arrow">➤</span></a></div>
+                <hr>
+                <h6 style=" color: white;">Everything listed in Webex Free, plus:</h6>
+  <p><i class="bi bi-check"></i>  AI Assistant</p>
+  <p><i class="bi bi-check"></i>  Unlimited meetings, up to 24 hours per meeting</p>
+  <p><i class="bi bi-check"></i>  Up to 150 attendees per meeting</p>
+  <p><i class="bi bi-check"></i>  5 GB AI-powered cloud recording</p>
+  <p><i class="bi bi-check"></i>  Live polling and Q&A by Slido</p>
+  <p><i class="bi bi-check"></i>  Closed captions</p>
+  <p><i class="bi bi-check"></i>  Advanced Support</p>
+  
+                <div class="gradient"></div> <!-- Gradient div -->
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+          <div class="col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="pricing-item">
+              <div class="centered-div">
+                <h1 class="title"><span class="text-danger">W</span>EBEX <span class="text-danger">T</span>RAINING</h1>
+                <h2 class="subtitle">Upto 1000 people per meeting</h2>
+                <h2 class="text-dark">INR <span class="text-success" style="font-size: 50px; font-weight: 600;">4000</span></h2>
+                <p>/per/Host/month*</p>
+                <p>Billed Annually Min. 5 Host</p>
+                <p>Licenses</p>
+                <p>Immediate Activation</p>
+                <div class="text-center"><a href="#" onclick="window.location.href='plan.html'" class="buy-btn"> Buy <span class="arrow">➤</span></a></div>
+                </button>
+                <hr>
+                <h6>Everything listed in Webex Starter, plus:</h6>
+  <p><i class="bi bi-check"></i>  Up to 200 attendees per meeting</p>
+  <p><i class="bi bi-check"></i>  10 GB AI-powered cloud recording</p>
+  
+                <div class="gradient"></div> <!-- Gradient div -->
+              </div>
+            </div>
+          </div><!-- End Pricing Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Pricing Section -->
+
+
+     <!-- Talk to Specialist Starts-->
+
+  <div class="container-fluid mt-5 mb-5" style="background-color: #e3fafa; padding: 40px;">
+    <div class="row text-center mb-3">
+      <div class="col-md-4" style="border-right: 2px solid white;">
+        <h2><i class="fa-solid fa-headset text-dark"></i></h2>
+        <h5 class="text-dark">Talk to a specialist</h5>
+        <p>Got questions? Want to see a live demo?
+          We'll be in touch within 24 hours.</p>
+        <button type="button" class="btn btn-outline-primary">+91-7729921013</button>
+
+      </div>
+      <div class="col-md-4" style="border-right: 2px solid white;">
+        <h2><i class="fa-solid fa-phone-volume text-dark"></i></h2>
+        <h5 class="text-dark">Contact Us</h5>
+        <p>Speak directly to one of our sales
+          representatives by calling.</p>
+        <button type="button" class="btn btn-outline-primary">Contact Sales</button>
+
+      </div>
+      <div class="col-md-4">
+        <h2><i class="fa-regular fa-envelope-open text-dark"></i></h2>
+        <h5 class="text-dark">Support</h5>
+        <p>Check out our help centre for answers to common questions.</p>
+        <button type="button" class="btn btn-outline-primary">Support</button>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Talk to Specialist Ends-->
+
+  </main>
+
+  <footer id="footer" class="footer light-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">Webtouch IT Solutions</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <div class="main-heading left_text">
+                <h2 class="text-dark">Corporate Office</h2>
+              </div>
+              <p class="left_text">F201, Plot No 399, 399A & 400 <br>
+                Vidhya Nest Apt, Lake View Colony
+                Pragati Nagar, Opp JNTU, Hyderabad.
+                India. Pin Code – 500090.<br>
+                <span style="font-size:18px;"><a href="tel:+9876543210">+987 654 3210</a></span>
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>COMPANY</h4>
+            <ul>
+              <li><a href="#">About us</a></li>
+              <li><a href="#">Site Map</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>WEBTOUCH</h4>
+            <ul>
+              <li><a href="#">Plans & Prices</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Contact Sales</a></li>
+              <li><a href="#">24/7 Customer Support</a></li>
+              <li><a href="#">FAQs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>RESOURCES</h4>
+            <ul>
+              <li><a href="#">Cisco Webex Meeting</a></li>
+              <li><a href="#">Cisco Webex Calling</a></li>
+              <li><a href="#">Cisco Webex Teams</a></li>
+              <li><a href="#">Cisco Webex Devices</a></li>
+             
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright text-center">
+      <div class="container d-flex flex-column flex-lg-row justify-content-center justify-content-lg-between align-items-center">
+
+        <div class="d-flex flex-column align-items-center align-items-lg-start">
+          <div>
+            © Copyright <strong><span></span></strong>. All Rights Reserved
+          </div>
+          <div class="credits">
+          
+          </div>
+        </div>
+
+        <div class="social-links order-first order-lg-last mb-3 mb-lg-0">
+          <a href="https://x.com/"><i class="bi bi-twitter-x"></i></a>
+          <a href="www.facebook.com"><i class="bi bi-facebook"></i></a>
+          <a href="https://www.instagram.com/"><i class="bi bi-instagram"></i></a>
+          <a href="https://www.instagram.com/"><i class="bi bi-linkedin"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js" integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/brands.min.js" integrity="sha512-N5K6sQXjzT79tR16zvBu7B0AqvYtHKvk3+eKuQWoVNQDGU5kR9W8OP3CTYtm3vVM2EtObrmtm0Jup17F718OyA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/conflict-detection.min.js" integrity="sha512-xCW0XKIjktyY34NFvrvxxGZr7aAovIhKAuF4Z49ZGWzjoDC0pGzO4qwGG8Kg6kGcKWNib0g8P1w91XO6nC9dyQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/fontawesome.min.js" integrity="sha512-NeFv3hB6XGV+0y96NVxoWIkhrs1eC3KXBJ9OJiTFktvbzJ/0Kk7Rmm9hJ2/c2wJjy6wG0a0lIgehHjCTDLRwWw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/regular.min.js" integrity="sha512-kOmvRi+0imoekwslOzP/X1LXQnzcttzqYYt3urKD4nhd5fMYwRfXgDS5Nh7b7pQjKPjBPSX9PmhCLrkfkxUcBQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/solid.min.js" integrity="sha512-L2znesU64H/rvdnaD4WBaRAmEcGvhBsVLXygPkhpgpUwcgjymD4amy68shdgZgLiIvyvV/vHRXAM4mTV8xqp+Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/v4-shims.min.js" integrity="sha512-gXYZ34cbCchjX/wdcI1HDXjtplfbLEKnCMj7xJbqnOJon+Fy3aHXTt+otc3jH0KxMHM4+j+oIAMyNi1XZ2U3ow==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js" integrity="sha512-RBWI5Qf647bcVhqbEnRoL4KuUT+Liz+oG5jtF+HP05Oa5088M9G0GxG0uoHR9cyq35VbjahcI+Hd1xwY8E1/Kg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js" integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.esm.min.js" integrity="sha512-p6KKvRUjLcXZtvsFd+01s4jcHKu0PNWplQNHeEHmq+27tF5osNRRNkziDu45B5Mo+0+DE/k1qD0ZI29DHEutww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.js" integrity="sha512-56woqtdm6O1h0fmHF9270BX0qEurQLS72vkgnXiurzd6rbaHXP+nmuqEmV2Eu8B0cSs4B0nIaSwshfH1nS/JWA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js" integrity="sha512-Ysw1DcK1P+uYLqprEAzNQJP+J4hTx4t/3X2nbVwszao8wD+9afLjBQYjz7Uk4ADP+Er++mJoScI42ueGtQOzEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.js" integrity="sha512-hRhHH3+D9xVKPpodEiYzHWIG8CWbCjp7LCdZ00K3/6xsdC3iT0OlPJLIwxSMEl07gya1Ae8iAqXjMMLpzqqh0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js" integrity="sha512-ykZ1QQr0Jy/4ZkvKuqWn4iF3lqPZyij9iRv6sGqLRdTPkY69YX6+7wvVGmsdBbiIfN/8OdsI7HABjvEok6ZopQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.min.js" integrity="sha512-kfs3Dt9u9YcOiIt4rNcPUzdyNNO9sVGQPiZsub7ywg6lRW5KuK1m145ImrFHe3LMWXHndoKo2YRXWy8rnOcSKg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.js" integrity="sha512-FxVzEpFT3ud9pJnY8inSvxar5XthCgn6aNjRzameAR3ILpH3OZly1eXR1TffkeeKKYBnaVKAI1ALCASquJ6JIg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.min.js" integrity="sha512-GNb4Gyn5ZK+XcsnKg8jeo5olNYWqH+j+gMvbG1X5Z9Vz7bv/tQ2spLUuKcXo8T3r4p3IxVt0e/ARNwFftqCt+w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/5.0.0/imagesloaded.pkgd.js" integrity="sha512-6ePBeCKrKXwcbIhH0tsjvHX8Mbfn6y/E/CJJzaUgAphlsYh5cp52IRzfXdoONeswsLsP1ovoyUvUb8d7F1P93A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.js" integrity="sha512-E/yP5UiPXb6VelX+dFLuUD+1IZw/Kz7tMncFTYbtoNSCdRZPFoGN3jZ2p27VUxHEkhbPiLuZhZpVEXxk9wAHCQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" integrity="sha512-fHXRw0CXruAoINU11+hgqYvY/PcsOWzmj0QmcSOtjlJcqITbPyypc8cYpidjPurWpCnlB8VKfRwx6PIpASCUkQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js" integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" integrity="sha512-CEiA+78TpP9KAIPzqBvxUv8hy41jyI3f2uHi7DGp/Y/Ka973qgSdybNegWFciqh6GrN2UePx2KkflnQUbUhNIA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.js" integrity="sha512-Q4MHJkk3u8P63v1aX0I7jvo5AoMFi53HbxUBhURp8x7xrqD+nsHZrbBEQVObpqE+MAAVB/Ye9ZlKkM44a1q9WA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/waypoints.debug.js" integrity="sha512-QKcgAa+jiMZaQoRxtWdgf7jpvLI6p0uV9ACZ5V9XfmLJRFqDDluiJ2VETKESpDOmtCES7XLZ8k4mg/ZBUr8InQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/zepto.waypoints.js" integrity="sha512-ijWskuOVrgVm8sWQ/isupZY3YukgUMSvPPn4ltX+W2+6vxD1td0ZGpQqE3lAii/FN7pZFhwuxIJHdM9HIgf3fQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/zepto.waypoints.min.js" integrity="sha512-x9g49BJrx5PMNAgVyi+7y81Yor2/leEeVf8DbGVE/qTKhkC72ja+34wzQsR0txKlLbc/GfXy0UBQZ3aTJeyXZA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/infinite.js" integrity="sha512-gmJ7g3lfVXyDAOdhgCzdN1mZMsC/bE421/f4k4rIn6Pqsn7ibyDrXe4IlnJu0+1dE31dvTI4/ILV9x/dcowGaw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/infinite.min.js" integrity="sha512-m3kH21aSkKrGeoqdb7IP7rlu1VcQee5VrjLQepeSOp5M05Wl6HwqJ1Jwo14EHOuBg77pkAlBtQuVMPVeXzfueg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.js" integrity="sha512-lDPhoDDO4Yo8R30iVj1lk+iFDvNqJhL8STytqe+ZjVMBWvZDjHPbe27zZJAsNit2AtOJevmhVf+ZjuzDojGm7Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/inview.min.js" integrity="sha512-g6IhMPPqSSUgE+lYgBpdsXICK0fNhDlDDEuIbphNIKfPTYFD/1VcnxA+7pS9mibvzIb5SB0nNvii5M+yMwkcJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.js" integrity="sha512-xDzuzTeDkAdPcyIBFEslxwsn50IGJoAvBP53yDbM93pfqRYaJyAp7BGl6XxLo7gDh5jwAbH2CCBhlq9ARAwLww==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/shortcuts/sticky.min.js" integrity="sha512-O5YCLUxCY2OBc4rfpnKUIgE4LGuCiW8CrJ7ty4hvkBAAKUOnlbomEFWd3a6ruRnFvO3LG2wiaGiJ1heOvdppvA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
